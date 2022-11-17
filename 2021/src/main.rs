@@ -1,0 +1,38 @@
+mod day_1;
+mod day_2;
+mod day_3;
+mod day_4;
+mod day_5;
+mod day_6;
+mod day_7;
+mod day_8;
+mod day_9;
+mod day_10;
+mod day_11;
+mod day_12;
+fn main() {
+    println!("Result day 1 = {}", day_1::run().unwrap());
+    println!("Result day 1_2 = {}", day_1::run_2().unwrap());
+    println!("Result day 2 = {}", day_2::run().unwrap());
+    println!("Result day 2_2 = {}", day_2::run_2().unwrap());
+    println!("Result day 3 = {}", day_3::run().unwrap());
+    println!("Result day 3_2 = {}", day_3::run_2().unwrap());
+    println!("Result day 4 = {}", day_4::run().unwrap());
+    println!("Result day 4_2 = {}", day_4::run_2().unwrap());
+    println!("Result day 5 = {}", day_5::run().unwrap());
+    println!("Result day 5_2 = {}", day_5::run_2().unwrap());
+    println!("Result day 6 = {}", day_6::run().unwrap());
+    println!("Result day 6_2 = {}", day_6::run_2().unwrap());
+    println!("Result day 7 = {}", day_7::run().unwrap());
+    println!("Result day 7_2 = {}", day_7::run_2().unwrap());
+    println!("Result day 8 = {}", day_8::run().unwrap());
+    println!("Result day 8_2 = {}", day_8::run_2().unwrap());
+    println!("Result day 9 = {}", day_9::run().unwrap());
+    println!("Result day 9_2 = {}", day_9::run_2().unwrap());
+    println!("Result day 10 = {}", day_10::run().unwrap());
+    println!("Result day 10_2 = {}", day_10::run_2().unwrap());
+    println!("Result day 11 = {}", day_11::run().unwrap());
+    println!("Result day 11_2 = {}", day_11::run_2().unwrap());
+    println!("Result day 12 = {}", day_12::run().unwrap());
+    println!("Result day 12_2 = {}", day_12::run_2().unwrap());
+}
